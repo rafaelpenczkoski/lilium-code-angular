@@ -21,7 +21,10 @@
     "@angular/router": "~11.2.12",
     "bootstrap": "^4.6.0",
     "jquery": "^3.6.0",
+    "net": "^1.0.2",
     "rxjs": "~6.6.0",
+    "sockjs-client": "^1.5.1",
+    "stompjs": "^2.3.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"
   },

@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { VehicleComponent } from './vehicle/vehicle.component';
 import { MenuComponent } from './menu/menu.component';
+import { StompService } from './services/stomp.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { MenuComponent } from './menu/menu.component';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [StompService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
